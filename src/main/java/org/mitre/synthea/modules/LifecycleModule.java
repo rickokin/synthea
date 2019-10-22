@@ -172,7 +172,7 @@ public final class LifecycleModule extends Module {
       attributes.put(Person.MULTIPLE_BIRTH_STATUS, person.randInt(3) + 1);
     }
 
-    String phoneNumber = "555-" + ((person.randInt(999 - 100 + 1) + 100)) + "-"
+    String phoneNumber = "444-" + ((person.randInt(999 - 100 + 1) + 100)) + "-"
         + ((person.randInt(9999 - 1000 + 1) + 1000));
     attributes.put(Person.TELECOM, phoneNumber);
 
